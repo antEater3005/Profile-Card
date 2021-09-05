@@ -32,16 +32,18 @@ body {
 }
 .mainbox {
   width: 350px;
-  height: 420px;
+  height: 390px;
   display: flex;
   flex-direction: column;
 
   background-color: white;
   border-radius: 20px;
+  min-width: 300px;
+  min-height: 350px;
 }
 .patt {
   width: 100%;
-  height: 150px;
+  height: 300px;
   border-radius: 20px 20px 0px 0px;
   background-image: url(https://raw.githubusercontent.com/antEater3005/Profile-Card/e9eb15de2e05ab0d09f2ce663d38c3adf7ec6d21/images/bg-pattern-card.svg);
 }
@@ -59,12 +61,45 @@ body {
   position: relative;
   top: -55px;
   font-size: 18px;
-  font-weight: 700;color: rgb(58, 58, 58);
+  font-weight: 700;
+  color: rgb(58, 58, 58);
 }
 #age {
   display: inline-block;
   font-size: 18px;
   margin: 0px;
   font-weight: 400;
-  color:hsl(0, 0%, 59%);
+  color: hsl(0, 0%, 59%);
+}
+#place {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+  color: hsl(0, 0%, 59%);
+}
+#line {
+  align-self: center;
+  position: relative;
+  top: -50px;
+  width: 300px;
+  color: black;
+}
+.stats {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  top: -10px;
+}
+.stat {
+  font-weight: 700;
+  text-align: center;
+
+  color: rgb(58, 58, 58);
+}
+#foll {
+  font-weight: 100;
+  margin-top: 7px;
+  font-size: 14px;
+  color: hsl(0, 0%, 59%);
 }
