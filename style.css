@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+}
+.main {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.top {
+  width: 48em;
+  height: 25em;
+  background-image: url(https://raw.githubusercontent.com/antEater3005/Profile-Card/e9eb15de2e05ab0d09f2ce663d38c3adf7ec6d21/images/bg-pattern-top.svg);
+  position: absolute;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.bot {
+  width: 48em;
+  height: 25em;
+  background-image: url(https://raw.githubusercontent.com/antEater3005/Profile-Card/e9eb15de2e05ab0d09f2ce663d38c3adf7ec6d21/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.mainbox {
+  width: 350px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  border-radius: 20px;
+}
+.patt {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(https://raw.githubusercontent.com/antEater3005/Profile-Card/e9eb15de2e05ab0d09f2ce663d38c3adf7ec6d21/images/bg-pattern-card.svg);
+}
+#profile-img {
+  position: relative;
+  width: 100px;
+  align-self: center;
+  border-radius: 100px;
+  top: -65px;
+  background-color: white;
+  padding: 5px;
+}
+.name {
+  align-self: center;
+  position: relative;
+  top: -55px;
+  font-size: 18px;
+  font-weight: 700;color: rgb(58, 58, 58);
+}
+#age {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0px;
+  font-weight: 400;
+  color:hsl(0, 0%, 59%);
+}
